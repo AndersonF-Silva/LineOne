@@ -4,5 +4,29 @@ h1 {
 }
 
 .body {
-  background-color: #00539f;
+  background-color: whitesmoke;
+  font-family: Arial;
+  margin: 50px;
+  max-width: 100%;
+}
+
+.cabecalho {
+  background-color: lightcoral;
+  max-width: 100%;
+  font-family: Arial;
+}
+
+.conteudo {
+  max-width: 100%;
+  font-family: Arial;
+}
+
+.navegacao {
+  max-width: 100%;
+  font-family: Arial;
+}
+
+.rodape {
+  max-width: 100%;
+  font-family: Arial;
 }
