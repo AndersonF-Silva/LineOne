@@ -1,7 +1,8 @@
 h1 {
   color: red;
+  text-align: center;
 }
 
-html {
+.body {
   background-color: #00539f;
 }
