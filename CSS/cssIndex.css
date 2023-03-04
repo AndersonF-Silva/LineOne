@@ -233,6 +233,7 @@ ul {
 .rodape-site {
   height: 60px;
   padding: 10px;
+  background-color: whitesmoke;
 }
 
 .detalheRodape {
@@ -246,21 +247,25 @@ ul {
 
 .menu-rodape-lista {
   display: flex;
+  background-color: #fff;
   flex-wrap: wrap;
   gap: 1.25rem;
   justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 20px;
 }
 
 .menu-rodape-lista a {
   display: block;
   background: #ffffff;
-  padding-top: 0.9375rem;
+  padding-top: 1rem;
   padding-right: 0.875rem;
-  padding-bottom: 0.4rem;
+  padding-bottom: 1rem;
   padding-left: 0.875rem;
   color: #000000;
   border: 5px solid transparent;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 .rodape {
@@ -279,6 +284,22 @@ ul {
   background: #000000;
   position: absolute;
   align-items: center;
+}
+
+.rodape-contato:hover {
+  background-color: whitesmoke;
+}
+
+.rodape-trabalhe:hover {
+  background-color: whitesmoke;
+}
+
+.rodape-privacidade:hover {
+  background-color: whitesmoke;
+}
+
+.rodape-cookies:hover {
+  background-color: whitesmoke;
 }
 
 .textoRodape {
