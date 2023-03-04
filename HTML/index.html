@@ -1,34 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
 <head>
-
-  <title> Bike Marketplace </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portifólio Profissional </title>
   <link rel="stylesheet" href="../CSS/cssIndex.css">
-
+  <link rel="shortcut icon" href="../Imagens/favIcon/faviconGrande.png" type="image/x-icon" />
 </head>
 
 <body class="body">
+  <header class="header">
+    <div class="titulo-site">
+      <a class="link-pag-inicial" href="./index.html">
+        <img class="img-menu" src="../Imagens/menuHamburguer.svg" alt="professional image">
+      </a>
+    </div>
 
-  <h1> Este é o corpo da página Inicial </h1>
-  <div class="cabecalho" id="cabecalhoSite">
-    <p> Anything within the body of a web page is
-      displayed in the main browser window. </p>
-  </div>
+    <nav class="menu-superior-navegacao" aria-label="primária">
+      <ul class="menu-superior-lista">
+        <span class="detalhe"></span>
+        <li><a class="servico" href="./servicos-projetos.html">Serviços e Projetos</a></li>
+        <li><a class="tecnologia" href="tecnologias-usadas.html">Tecnologias Utilizadas</a></li>
+        <li><a class="contato" href="./contato.html">Contato</a></li>
+        <li><a class="sobre" href="./sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+    <div class="pesquisa-site">
+      <a class="link-ppesquisa-site" href="./index.html">
+        <img class="img-pesquisa" src="../Imagens/pesquisa-site.svg" alt="search icon">
+      </a>
+    </div>
 
-  <div class="conteudo" id="conteudoSite">
-    <p> Anything within the body of a web page is
-      displayed in the main browser window. </p>
-  </div>
+  </header>
+
+  <main>
+    <article class="conteudo" id="conteudoSite">
+      <div class="introducao" aria-labelledby="label-introducao">
+        <span class="detalhe"></span>
+        <h1 id="label-introducao"> Sites e Aplicativos Desenvolvidos sob medida </h1>
+        <p> Todos nossos serviços e produtos são criados buscando entregar sempre algo simples e funcional.</p>
+        <a class="botao" href="/">Ver Mais</a>
+      </div>
+      <div class="introducao-cover">
+        <img class="img-introducao-cover" src="../Imagens/criar-site.png" alt="Imagens sobre desenvolvimento de websites">
+      </div>
+    </article>
+
+    <article class="conteudo conteudo-vantagem" aria-labelledby="label-vantagens">
+      <h2 class="subtitulo" id="label-vantagens">Nossas Vantagens</h2>
+      <ul class="vantagens">
+        <li class="vantagens-item">
+          <img class="vantagem1" src="../Imagens/Tecnologias.svg" alt="">
+          <h3>Linguagens modernas</h3>
+          <p class="detalhes-vantagem">Utilizamos as mais modernas IDE's e Linguagens do mercado de Desenvolvimento.</p>
+        </li>
+        <li class="vantagens-item">
+          <img class="vantagem2" src="../Imagens/cleanCode.svg" alt="">
+          <h3>Clean Code</h3>
+          <p class="detalhes-vantagem">Utilizamos a técnica de Clean Code para entregar soluçōes com a melhor performance possível.
+          </p>
+        </li>
+        <li class="vantagens-item">
+          <img class="vantagem2" src="../Imagens/Personalization.svg" alt="">
+          <h3>Personalização</h3>
+          <p class="detalhes-vantagem">Possuimos projetos prontos, personalizaveis e que permitem ao cliente, personalizar seu App ou Site da maneira que o mesmo
+            quiser.
+          </p>
+        </li>
+      </ul>
+    </article>
+  </main>
 
   <div class="navegacao" id="navegacaoRapida">
     <p> Anything within the body of a web page is
       displayed in the main browser window. </p>
   </div>
 
-  <div class="rodape" id="rodapeSite">
-    <p> Anything within the body of a web page is
-      displayed in the main browser window. </p>
-  </div>
+  <footer class="rodape" id="rodapeSite">
+    <nav class="menu-rodape" aria-label="primária">
+      <ul class="menu-rodape-lista">
+        <span class="detalheRodape"></span>
+        <li><a class="rodape-contato" href="./servicos-projetos.html">Entre em Contato conosco</a></li>
+        <li><a class="rodape-trabalhe" href="tecnologias-usadas.html">Trabalhe Conosco</a></li>
+        <li><a class="rodape-privacidade" href="./contato.html">Contrato de Privacidade</a></li>
+        <li><a class="rodape-cookies" href="./sobre.html">Sobre os Cookies</a></li>
+      </ul>
+    </nav>
+    <div class="rodape-site">
+      <p> Portifólio Profissional. Alguns Direitos Reservados.</p>
+    </div>
+  </footer>
 
 </body>
 
