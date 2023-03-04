@@ -231,9 +231,58 @@ ul {
 }
 
 .rodape-site {
-  width: auto;
   height: 60px;
   padding: 10px;
+}
+
+.detalheRodape {
+  background: #fff;
+  position: relative;
+  display: grid;
+  gap: 1.25rem;
+  align-content: center;
+  justify-items: end;
+}
+
+.menu-rodape-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.menu-rodape-lista a {
+  display: block;
+  background: #ffffff;
+  padding-top: 0.9375rem;
+  padding-right: 0.875rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.875rem;
+  color: #000000;
+  border: 5px solid transparent;
+  background-color: #f7f7f7;
+}
+
+.rodape {
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 1.25rem;
+  align-content: center;
+  width: 1000px;
+}
+
+.rodape ::before {
+  content: "";
+  width: 1000px;
+  height: 4px;
+  background: #000000;
+  position: absolute;
+  align-items: center;
+}
+
+.textoRodape {
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
@@ -317,11 +366,6 @@ ul {
   .vantagens {
     padding: 15px;
   }
-}
-
-.rodape {
-  max-width: 100%;
-  font-family: Arial;
 }
 
 h3 {
