@@ -176,7 +176,29 @@ h3 {
   max-width: 1000px;
 }
 
+.introducaoentreemContato {
+  background: #fff;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  position: relative;
+  display: grid;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
 .introducaocoletausoDados::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 50px;
+  right: 470px;
+}
+
+.introducaoentreemContato::before {
   content: "";
   width: 60px;
   height: 4px;
@@ -208,7 +230,22 @@ h3 {
   padding-right: 20px;
 }
 
+.introducaoContato {
+  width: 440px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
 .introducao-cover {
+  display: grid;
+  width: 450px;
+  height: 200px;
+  padding-left: 40px;
+  background-color: whitesmoke;
+  margin-right: 10px;
+}
+
+.introducaoentreemContato-cover {
   display: grid;
   width: 450px;
   height: 200px;
@@ -244,6 +281,15 @@ h3 {
   height: 100%;
 }
 
+.introducaoentreemContato-cover img {
+  display: grid;
+  object-fit: cover;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .conteudoPrivacidade {
   width: 1000px;
 }
@@ -253,6 +299,10 @@ h3 {
 }
 
 .introducaocoletausoDados {
+  width: 1000px;
+}
+
+.introducaoentreemContato {
   width: 1000px;
 }
 
@@ -329,6 +379,15 @@ h3 {
 }
 
 .marcador-usoDadosPessoais {
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 640px;
+  height: auto;
+  list-style-position: inside;
+}
+
+.marcadorOutrosRequisitosLegais-lista {
   font-size: 15px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -416,6 +475,40 @@ li.marcador-lista::marker {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.paragrafo-privacidadeInfantil {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-segurancaDadospessoais {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-linksoutrosSites {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-mudancaspoliticaPrivacidade {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-entreemContato {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.titulo-entreemContato {
+  padding-top: 30px;
 }
 
 .rodape-site {
