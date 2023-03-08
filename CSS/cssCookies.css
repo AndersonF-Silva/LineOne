@@ -42,12 +42,39 @@ h3 {
   margin: 0px;
 }
 
+h2.resumotiposCookies {
+  padding-top: 30px;
+}
+ul.marcadorCookies {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul.submarcadorConteudoCookies {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li.submarcador-Cookies {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .container-header {
   width: 100%;
 }
 
 .container-menu {
   width: 100%;
+}
+
+.container-resumoCookies {
+  width: 100%;
+}
+
+.container-conteudoCookies {
+  padding-top: 0px;
+  width: 1000px;
 }
 
 .header {
@@ -233,4 +260,14 @@ h3 {
   width: 440px;
   padding-left: 40px;
   padding-right: 20px;
+}
+
+.paragrafo-conteudoCookies {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-marcadorCookies {
+  padding-top: 10px;
 }
