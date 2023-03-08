@@ -54,6 +54,9 @@ ul.submarcadorConteudoCookies {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+li.marcador-Cookies {
+  margin-top: 10px;
+}
 
 li.submarcador-Cookies {
   margin-top: 10px;
@@ -266,6 +269,10 @@ li.submarcador-Cookies {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.paragrafo-conteudocookiessemMargin {
+  margin-bottom: 0px;
 }
 
 .paragrafo-marcadorCookies {
