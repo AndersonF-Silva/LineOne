@@ -385,3 +385,75 @@ ul.submarcadorconfigurarBrowser {
 .paragrafo-configurarBrowser {
   padding-top: 10px;
 }
+
+@media (max-width: 3840px) {
+  div.left {
+    width: 1550px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 1550px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 2560px) {
+  div.left {
+    width: 775px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 775px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1920px) {
+  div.left {
+    width: 454px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 454px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1600px) {
+  div.left {
+    width: 293px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 294px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1550px) {
+  div.left {
+    width: 256px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 256px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1280px) {
+  div.left {
+    width: 133px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 132px;
+    height: 60px;
+  }
+}
