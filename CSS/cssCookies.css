@@ -142,6 +142,10 @@ li.submarcador-Cookies-semMargin {
   margin-top: -40px;
 }
 
+.container-footer {
+  width: 100%;
+}
+
 ul.submarcadorconfigurarBrowser {
   font-size: 15px;
 }
@@ -153,6 +157,13 @@ ul.submarcador-cookies-edge {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 999px;
+}
+
+.rodape-footer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 999px;
 }
 
@@ -168,6 +179,20 @@ ul.submarcador-cookies-edge {
   object-fit: cover;
   width: 256px;
   height: 60px;
+}
+
+.left-footer {
+  display: grid;
+  object-fit: cover;
+  width: 256px;
+  height: 195px;
+}
+
+.right-footer {
+  display: grid;
+  object-fit: cover;
+  width: 256px;
+  height: 195px;
 }
 
 .titulo-site {
@@ -430,6 +455,7 @@ ul.submarcador-cookies-edge {
   gap: 1.25rem;
   justify-content: center;
   font-size: 20px;
+  margin-top: -15px;
 }
 
 .menu-rodape-lista a {
