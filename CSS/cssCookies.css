@@ -14,7 +14,7 @@ img {
 }
 
 img.imgMenuBrowser {
-  vertical-align: middle;
+  vertical-align: text-bottom;
 }
 
 a {
@@ -114,6 +114,10 @@ li.resumoconfigurar-Browser::marker {
 li.submarcador-configurarBrowser {
   list-style-type: disc;
   padding-bottom: 10px;
+}
+
+li.submarcador-Cookies-semMargin {
+  margin-bottom: 0px;
 }
 
 .container-header {
@@ -366,6 +370,10 @@ ul.submarcadorconfigurarBrowser {
   width: 440px;
   padding-left: 40px;
   padding-right: 20px;
+}
+
+.maioresopcoesFirefox {
+  padding-bottom: 10px;
 }
 
 .paragrafo-conteudoCookies {
