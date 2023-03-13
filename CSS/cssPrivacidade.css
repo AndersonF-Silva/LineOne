@@ -5,6 +5,7 @@ body {
   display: grid;
   gap: 60px;
   justify-items: center;
+  align-items: center;
   padding-top: 30px;
 }
 
@@ -29,10 +30,15 @@ h1 {
   margin-top: 0px;
 }
 
+h1.tituloCover {
+  display: grid;
+  justify-content: left;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
 h2 {
   text-decoration: underline;
-  padding-bottom: 10px;
-  margin-top: 0px;
 }
 
 h3 {
@@ -43,8 +49,23 @@ h3 {
 
 .header {
   display: grid;
-  justify-items: left;
-  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 999px;
+}
+
+.left {
+  display: grid;
+  object-fit: cover;
+  width: 256px;
+  height: 60px;
+}
+
+.right {
+  display: grid;
+  object-fit: cover;
+  width: 256px;
+  height: 60px;
 }
 
 .titulo-site {
@@ -52,30 +73,42 @@ h3 {
   object-fit: cover;
   width: 100px;
   height: 60px;
-  padding-left: 255px;
 }
 
 .pesquisa-site {
   display: grid;
   object-fit: cover;
-  width: 50px;
+  width: 100px;
   height: 60px;
-  padding-left: 50px;
+  align-content: end;
 }
 
 .link-pag-inicial {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 60px;
+}
+
+.link-pesquisa-site {
+  width: 100px;
+  height: 60px;
 }
 
 .img-menu {
   display: grid;
   object-fit: cover;
+  padding-right: 40px;
+}
+
+.img-pesquisa {
+  display: grid;
+  object-fit: cover;
+  padding-left: 40px;
 }
 
 .menu-superior-lista {
   margin: 0px;
   padding: 0px;
+  height: 60px;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -148,6 +181,31 @@ h3 {
   max-width: 100%;
 }
 
+.container-header {
+  width: 100%;
+  margin-bottom: -60px;
+}
+
+.container-menu {
+  width: 100%;
+}
+
+.container-resumoPrivacidade {
+  width: 100%;
+  padding-top: 50px;
+  margin-bottom: -20px;
+}
+
+.container-conteudoPrivacidade {
+  padding-top: 0px;
+  width: 1000px;
+  margin-top: -40px;
+}
+
+.container-footer {
+  width: 100%;
+}
+
 .vantagens {
   background: #fff;
   padding: 40px;
@@ -160,7 +218,6 @@ h3 {
   position: relative;
   display: grid;
   align-content: center;
-  display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
 }
@@ -244,6 +301,7 @@ h3 {
   padding-left: 40px;
   background-color: whitesmoke;
   margin-right: 10px;
+  word-break: end;
 }
 
 .introducaoentreemContato-cover {
@@ -324,31 +382,65 @@ h3 {
   padding-right: 10px;
 }
 
+.paragrafo-servicosTerceirossemPadding {
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .paragrafo-usodadosPessoais {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 30px;
 }
 
 h2.usodadosPessoais {
+  padding-bottom: 10px;
+  margin-top: 0px;
   padding-top: 30px;
+  margin-bottom: 0px;
 }
 
 h2.retencaodadosPessoais {
-  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 30px;
+  margin-bottom: 0px;
 }
 
 h2.transferenciaDadosPessoais {
-  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 30px;
+  margin-bottom: 0px;
 }
 
 h2.divulgacaoDadosPessoais {
-  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+
+h2.dicionarioPrivacidade {
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+
+h2.conteudoColetaDados {
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 30px;
+  margin-bottom: 0px;
 }
 
 h2.aplicacaoLei {
-  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 30px;
+  margin-bottom: 0px;
 }
 
 h2.segurancaDadospessoais {
@@ -389,24 +481,35 @@ h2.mudancaspoliticaPrivacidade {
 .marcador {
   padding-right: 10px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .marcadorusoDados {
   padding-right: 10px;
   margin-top: 0px;
   margin-right: 0px;
+  margin-bottom: 0px;
 }
 
 .marcadorColeta {
   padding-right: 10px;
   padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.marcadorServicos {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .submarcadorusoDados {
   padding-right: 10px;
   padding-left: 100px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .marcador-lista {
@@ -480,17 +583,11 @@ li.marcador-lista::marker {
 
 .paragrafoRetencaoDados {
   font-size: 15px;
-  padding-bottom: 20px;
-}
-
-.paragrafoRetencaoDados {
-  font-size: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .paragrafodivulgacaoDados {
   font-size: 15px;
-  padding-bottom: 20px;
 }
 
 .paragrafo-dados {
@@ -505,14 +602,26 @@ li.marcador-lista::marker {
   padding-right: 10px;
 }
 
+.paragrafo-retencaoDadossemPadding {
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .paragrafo-transferenciaDados {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
+.paragrafo-transferenciaDadossemPadding {
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .paragrafo-divulgacaoDados {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -551,6 +660,13 @@ li.marcador-lista::marker {
   padding-top: 30px;
 }
 
+.rodape-footer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 999px;
+}
+
 .rodape-site {
   height: 60px;
   padding: 10px;
@@ -579,6 +695,7 @@ li.marcador-lista::marker {
   gap: 1.25rem;
   justify-content: center;
   font-size: 20px;
+  margin-top: -15px;
 }
 
 .menu-rodape-lista a {
@@ -600,6 +717,7 @@ li.marcador-lista::marker {
   gap: 1.25rem;
   align-content: center;
   width: 1000px;
+  margin-top: -20px;
 }
 
 .rodape ::before {
@@ -634,86 +752,94 @@ li.marcador-lista::marker {
   margin-bottom: 15px;
 }
 
-@media (max-width: 1000px) {
-  .conteudo-vantagem {
-    grid-template-columns: 1fr;
+.menu-rodape {
+  padding-top: 0px;
+  margin-top: -15px;
+}
+
+.left-footer {
+  display: grid;
+  object-fit: cover;
+  width: 256px;
+  height: 195px;
+}
+
+.right-footer {
+  display: grid;
+  object-fit: cover;
+  width: 256px;
+  height: 195px;
+}
+
+@media (max-width: 3840px) {
+  div.left {
+    width: 1550px;
+    height: 60px;
   }
-  .subtitulo {
-    text-align: center;
-    font-size: 3rem;
+
+  div.right {
+    width: 1550px;
+    height: 60px;
   }
 }
 
-@media (max-width: 970px) {
-  body {
-    gap: 30px;
-    margin-top: 20px;
+@media (max-width: 2560px) {
+  div.left {
+    width: 775px;
+    height: 60px;
   }
 
-  .header {
-    width: auto;
-  }
-
-  .conteudo {
-    grid-template-columns: 1fr;
-  }
-
-  .introducao {
-    text-align: left;
-    justify-items: start;
-  }
-
-  .introducao::before {
-    display: none;
-  }
-
-  .menu-superior-navegacao {
-    width: 960px;
-    height: 140px;
-  }
-
-  .menu-superior-lista {
-    display: grid;
-    grid-column-gap: 1rem;
-  }
-
-  .menu-superior-lista a {
-    padding: 0.1rem 1rem;
-    border-radius: 4px;
-    color: #000000;
-    text-transform: uppercase;
-    border: 2px solid transparent;
+  div.right {
+    width: 775px;
+    height: 60px;
   }
 }
 
-@media (max-width: 460px) {
-  body {
-    gap: 0px;
-    margin-top: 0px;
+@media (max-width: 1920px) {
+  div.left {
+    width: 454px;
+    height: 60px;
   }
 
-  .img-menu {
-    justify-content: left;
-  }
-
-  .subtitulo {
-    text-align: center;
-    font-size: 2rem;
-  }
-
-  .vantagens {
-    padding: 15px;
+  div.right {
+    width: 454px;
+    height: 60px;
   }
 }
 
-@media (max-width: 400px) {
-  .subtitulo {
-    text-align: center;
-    font-size: 2rem;
+@media (max-width: 1600px) {
+  div.left {
+    width: 293px;
+    height: 60px;
   }
 
-  .vantagens {
-    padding: 15px;
+  div.right {
+    width: 294px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1550px) {
+  div.left {
+    width: 256px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 256px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1280px) {
+  div.left {
+    width: 133px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 132px;
+    height: 60px;
   }
 }
 
