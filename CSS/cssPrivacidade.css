@@ -781,16 +781,36 @@ li.marcador-lista::marker {
     width: 1550px;
     height: 60px;
   }
+
+  div.left-footer {
+    width: 1550px;
+    height: 60px;
+  }
+
+  div.right-footer {
+    width: 1550px;
+    height: 60px;
+  }
 }
 
 @media (max-width: 2560px) {
   div.left {
-    width: 775px;
+    width: 772px;
     height: 60px;
   }
 
   div.right {
-    width: 775px;
+    width: 772px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 772px;
+    height: 60px;
+  }
+
+  div.right-footer {
+    width: 772px;
     height: 60px;
   }
 }
@@ -802,6 +822,16 @@ li.marcador-lista::marker {
   }
 
   div.right {
+    width: 454px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 454px;
+    height: 60px;
+  }
+
+  div.right-footer {
     width: 454px;
     height: 60px;
   }
@@ -817,6 +847,16 @@ li.marcador-lista::marker {
     width: 294px;
     height: 60px;
   }
+
+  div.left-footer {
+    width: 293px;
+    height: 60px;
+  }
+
+  div.right-footer {
+    width: 294px;
+    height: 60px;
+  }
 }
 
 @media (max-width: 1550px) {
@@ -829,6 +869,16 @@ li.marcador-lista::marker {
     width: 256px;
     height: 60px;
   }
+
+  div.left-footer {
+    width: 256px;
+    height: 60px;
+  }
+
+  div.right-footer {
+    width: 256px;
+    height: 60px;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -838,6 +888,16 @@ li.marcador-lista::marker {
   }
 
   div.right {
+    width: 132px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 133px;
+    height: 60px;
+  }
+
+  div.right-footer {
     width: 132px;
     height: 60px;
   }
