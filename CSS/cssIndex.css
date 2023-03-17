@@ -30,6 +30,26 @@ img {
   display: block;
 }
 
+img.logoSite {
+  display: grid;
+  object-fit: cover;
+  width: 220px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+img.img-menu {
+  display: grid;
+  object-fit: cover;
+  padding-right: 40px;
+}
+
+img.img-pesquisa {
+  display: grid;
+  object-fit: cover;
+  padding-left: 40px;
+}
+
 a {
   text-decoration: none;
 }
@@ -91,23 +111,12 @@ p {
   height: 60px;
 }
 
-.img-menu {
-  display: grid;
-  object-fit: cover;
-  padding-right: 40px;
-}
-
-.img-pesquisa {
-  display: grid;
-  object-fit: cover;
-  padding-left: 40px;
-}
-
 .left {
   display: grid;
   object-fit: cover;
   width: 256px;
   height: 60px;
+  justify-items: center;
 }
 
 .right {
@@ -413,6 +422,7 @@ ul {
   div.left {
     width: 1550px;
     height: 60px;
+    justify-items: center;
   }
 
   div.right {
@@ -435,6 +445,7 @@ ul {
   div.left {
     width: 772px;
     height: 60px;
+    justify-items: center;
   }
 
   div.right {
@@ -457,6 +468,7 @@ ul {
   div.left {
     width: 454px;
     height: 60px;
+    justify-items: center;
   }
 
   div.right {
@@ -479,6 +491,7 @@ ul {
   div.left {
     width: 293px;
     height: 60px;
+    justify-items: center;
   }
 
   div.right {
@@ -501,6 +514,7 @@ ul {
   div.left {
     width: 256px;
     height: 60px;
+    justify-items: center;
   }
 
   div.right {
@@ -523,6 +537,7 @@ ul {
   div.left {
     width: 133px;
     height: 60px;
+    justify-items: center;
   }
 
   div.right {

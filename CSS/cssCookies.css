@@ -17,6 +17,28 @@ img.imgMenuBrowser {
   vertical-align: text-bottom;
 }
 
+img.img-menu {
+  display: grid;
+  object-fit: cover;
+  padding-right: 40px;
+
+}
+
+img.img-pesquisa {
+  display: grid;
+  object-fit: cover;
+  padding-left: 40px;
+}
+
+img.logoSite {
+  display: grid;
+  object-fit: cover;
+  width: 220px;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 a {
   text-decoration: none;
 }
@@ -189,6 +211,7 @@ ul.submarcador-cookies-edge {
   object-fit: cover;
   width: 256px;
   height: 60px;
+  justify-items: center;
 }
 
 .right {
@@ -221,18 +244,6 @@ ul.submarcador-cookies-edge {
 .link-pesquisa-site {
   width: 100px;
   height: 60px;
-}
-
-.img-menu {
-  display: grid;
-  object-fit: cover;
-  padding-right: 40px;
-}
-
-.img-pesquisa {
-  display: grid;
-  object-fit: cover;
-  padding-left: 40px;
 }
 
 .menu-superior-lista {
