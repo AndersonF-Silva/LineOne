@@ -47,6 +47,16 @@ p {
   margin-bottom: 0px;
 }
 
+p.paragrafo-conteudo {
+  text-align: justify;
+}
+
+p.paragrafo-definicoes {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 h1 {
   text-justify: initial;
   margin-top: 0px;
@@ -381,12 +391,6 @@ h3 {
   padding-top: 20px;
 }
 
-.paragrafo-definicoes {
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .paragrafo-servicosTerceiros {
   padding-bottom: 10px;
   padding-left: 10px;
@@ -557,7 +561,6 @@ h2.mudancaspoliticaPrivacidade {
   width: 640px;
   height: auto;
   list-style-position: inside;
-  list-style-type: circle;
 }
 
 .marcadorColeta-lista {
