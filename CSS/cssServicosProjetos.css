@@ -25,6 +25,13 @@ h2.dicionarioPrivacidade {
   margin-bottom: 0px;
 }
 
+h2.Definicoes{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+
+}
+
 h3 {
   width: 500px;
   margin: 0px;
@@ -88,6 +95,23 @@ p.paragrafo-marcado {
 
 p.paragrafo-marcador{
   padding-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  width: 980px;
+}
+
+p.paragrafoDefinicoes{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+p.paragrafoMetodologiasAgeis{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 
 .container-header {
@@ -226,12 +250,6 @@ p.paragrafo-marcador{
   right: 132px;
 }
 
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-
 .body {
   background-color: whitesmoke;
   font-family: Arial;
@@ -330,24 +348,17 @@ ul {
 
 .conteudo-vantagem {
   padding-bottom: 0px;
-  margin-bottom: -20px;
+  margin-bottom: -60px;
 }
 
 .marcador{
-  padding-left: 10px;
   margin-top: 0px;
-  margin-right: 0px;
   margin-bottom: 0px;
+  width: 1000px;
+  padding-top: 30px;
 }
 
-.submarcador {
-  padding-right: 10px;
-  padding-left: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px; 
-}
-
-.marcador-lista {
+.marcadorPilares {
   font-size: 15px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -356,21 +367,7 @@ ul {
   list-style-position: inside;
 }
 
-.submarcador-lista {
-  font-size: 15px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  width: 640px;
-  height: auto;
-  list-style-position: inside;
-}
-
-li.marcador-lista::marker {
-  display: flex;
-  list-style-type: circle;
-}
-
-li.submarcador-lista::marker {
+li.marcadorPilares::marker {
   display: flex;
   list-style-type: disc;
 }
