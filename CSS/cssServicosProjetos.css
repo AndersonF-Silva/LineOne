@@ -29,7 +29,6 @@ h2.Definicoes{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
-
 }
 
 h3 {
@@ -37,6 +36,19 @@ h3 {
   margin: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+h3.tituloVantagem {
+  width: 269px;
+  height: 27px;
+  margin: 0px;
+}
+
+h3.regrasCleanCode {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-left: 30px;
 }
 
 img {
@@ -74,6 +86,14 @@ ul {
   padding: 0px;
 }
 
+ul.listaNomes{
+  padding-left: 60px;
+}
+
+ul.pontosprincipaisNomes{
+  padding-left: 60px;
+}
+
 p {
   font-size: 15px;
   line-height: 1.3;
@@ -105,13 +125,35 @@ p.paragrafoDefinicoes{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 p.paragrafoMetodologiasAgeis{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
-  padding-left: 20px;
+  padding-left: 10px;
+}
+
+p.paragrafocleanCode{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+p.paragrafosubmarcadorcleanCode{
+  padding-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+p.paragrafolistaNome{
+  padding-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .container-header {
@@ -351,11 +393,38 @@ p.paragrafoMetodologiasAgeis{
   margin-bottom: -60px;
 }
 
-.marcador{
+.marcador {
   margin-top: 0px;
   margin-bottom: 0px;
   width: 1000px;
   padding-top: 30px;
+}
+
+.marcador-servicoProjetos {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.submarcadorMetodologiasAgeis {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+.submarcador-metodologiasAgeis {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+.submarcador-metodologiasAgeis::marker {
+  display: flex;
+  list-style-type: circle;
 }
 
 .marcadorPilares {
@@ -370,6 +439,14 @@ p.paragrafoMetodologiasAgeis{
 li.marcadorPilares::marker {
   display: flex;
   list-style-type: disc;
+}
+
+.submarcador-cleanCode{
+  padding-left: 40px;
+}
+
+.lista-Nomes{
+  padding-bottom: 10px;
 }
 
 .rodape {
@@ -693,12 +770,6 @@ li.marcadorPilares::marker {
   .vantagens {
     padding: 15px;
   }
-}
-
-h3 {
-  width: 269px;
-  height: 27px;
-  margin: 0px;
 }
 
 .detalhes-vantagem {
