@@ -9,6 +9,12 @@ body {
   padding-top: 30px;
 }
 
+.body {
+  background-color: whitesmoke;
+  font-family: Arial;
+  max-width: 100%;
+}
+
 h1 {
   text-justify: initial;
   margin-top: 0px;
@@ -94,6 +100,14 @@ ul.pontosprincipaisNomes{
   padding-left: 60px;
 }
 
+ul.pontosprincipais-cleanCode{
+  padding-left: 60px;
+}
+
+ul.submarcadormetodologiasAgeis {
+  padding-left: 60px;
+}
+
 p {
   font-size: 15px;
   line-height: 1.3;
@@ -128,18 +142,18 @@ p.paragrafoDefinicoes{
   padding-left: 10px;
 }
 
-p.paragrafoMetodologiasAgeis{
+p.paragrafometodologiasAgeis{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 p.paragrafocleanCode{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 p.paragrafosubmarcadorcleanCode{
@@ -292,12 +306,6 @@ p.paragrafolistaNome{
   right: 132px;
 }
 
-.body {
-  background-color: whitesmoke;
-  font-family: Arial;
-  max-width: 100%;
-}
-
 .botao {
   background: #e21;
   color: #fff;
@@ -393,60 +401,62 @@ p.paragrafolistaNome{
   margin-bottom: -60px;
 }
 
-.marcador {
+.marcadores {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: -60px;
   width: 1000px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.marcador-servicoProjetos {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 10px;
-}
-
-.submarcadorMetodologiasAgeis {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 10px;
-  }
-
-.submarcador-metodologiasAgeis {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 10px;
-  }
-
-.submarcador-metodologiasAgeis::marker {
-  display: flex;
-  list-style-type: circle;
-}
-
-.marcadorPilares {
+.marcadoresPilares {
   font-size: 15px;
   padding-right: 10px;
   padding-bottom: 10px;
+  padding-left: 20px;
   width: 640px;
   height: auto;
   list-style-position: inside;
-}
-
-li.marcadorPilares::marker {
-  display: flex;
   list-style-type: disc;
 }
 
-.submarcador-cleanCode{
-  padding-left: 40px;
+.submarcador-metodologiasAgeis{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    list-style-position: inside;
+    list-style-type: circle;
 }
 
-.lista-Nomes{
+.lista-Nomes {
   padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+.pontosprincipais-Nome {
+  width: 885px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
+.submarcador-cleanCode {
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    width: 640px;
+    height: auto;
+    list-style-position: inside;
+    list-style-type: decimal;
+
 }
 
 .rodape {
