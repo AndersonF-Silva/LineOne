@@ -15,7 +15,7 @@ ul {
   padding: 0px;
 }
 
-ul.marcadorInterpretacao, .marcadorColeta, .marcadorServicos, .marcadorusoDados, .marcadorOutrosRequisitosLegais, .marcadorContato {
+ul.marcadorInterpretacao, .marcadorColeta, .marcadorServicos, .marcadorusoDados {
   padding-left: 60px;
 }
 
@@ -27,15 +27,20 @@ ul.submarcadorusoDados {
   margin-bottom: 0px;
 }
 /* devem ser mantidos separados */
-
 img {
   max-width: 100%;
 }
 
-img.img-menu, img.img-pesquisa {
+img.img-menu {
   display: grid;
   object-fit: cover;
   padding-right: 40px;
+}
+
+img.img-pesquisa {
+  display: grid;
+  object-fit: cover;
+  padding-left: 40px;
 }
 
 img.logoSite {
@@ -74,10 +79,6 @@ p.paragrafo-transacoesComerciais{
   padding-left: 10px;
 }
 
-p.paragrafoaplicacaoLei {
-  padding-bottom: 0px;
-}
-
 h1 {
   text-justify: initial;
   margin-top: 0px;
@@ -95,11 +96,18 @@ h2 {
 }
 
 /* devem ser mantidos separados */
-h2.dicionarioPrivacidade, .titulo-entreemContato, .conteudoColetaDados {
+h2.dicionarioPrivacidade {
   padding-bottom: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+h2.conteudoColetaDados {
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /* devem ser mantidos separados */
 
 h2.aplicacaoLei, .segurancaDadospessoais, .usodadosPessoais, .retencaodadosPessoais, .transferenciaDadosPessoais, .divulgacaoDadosPessoais,
@@ -127,12 +135,19 @@ h3.titulo-transacoesComerciais{
   width: 999px;
 }
 
-.left, .right {
+.left {
   display: grid;
   object-fit: cover;
   width: 256px;
   height: 60px;
   justify-items: center;
+}
+
+.right {
+  display: grid;
+  object-fit: cover;
+  width: 256px;
+  height: 60px;
 }
 
 .titulo-site {
@@ -150,7 +165,12 @@ h3.titulo-transacoesComerciais{
   align-content: end;
 }
 
-.link-pag-inicial, .link-pesquisa-site {
+.link-pag-inicial {
+  width: 100px;
+  height: 60px;
+}
+
+.link-pesquisa-site {
   width: 100px;
   height: 60px;
 }
@@ -244,7 +264,7 @@ h3.titulo-transacoesComerciais{
   padding-top: 50px;
 }
 
-.container-conteudoPrivacidade, .container-conteudousodadosPessoais, .container-conteudoentreemContato, .container-resumoentreemContato {
+.container-conteudoPrivacidade {
   width: 1000px;
   margin-top: -60px;
   padding-top: 50px;
@@ -257,6 +277,19 @@ h3.titulo-transacoesComerciais{
   margin-top: -60px;
 }
 
+.container-conteudousodadosPessoais{
+  width: 1000px;
+  margin-top: -60px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+.container-entreemContato{
+  width: 100%;
+}
+
 .container-footer {
   width: 100%;
 }
@@ -266,7 +299,7 @@ h3.titulo-transacoesComerciais{
   padding: 40px;
 }
 
-.contratoPrivacidade, .introducaocoletausoDados, .introducaoentreemContato {
+.contratoPrivacidade {
   background: #fff;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -277,7 +310,31 @@ h3.titulo-transacoesComerciais{
   max-width: 1000px;
 }
 
-.introducaocoletausoDados::before, .introducaoentreemContato::before, .contratoPrivacidade::before {
+.introducaocoletausoDados {
+  background: #fff;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  position: relative;
+  display: grid;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducaoentreemContato {
+  background: #fff;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  position: relative;
+  display: grid;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducaocoletausoDados::before {
   content: "";
   width: 60px;
   height: 4px;
@@ -287,7 +344,39 @@ h3.titulo-transacoesComerciais{
   right: 470px;
 }
 
-.introducaoPrivacidade, .introducaocoletaUso, .introducaoContato {
+.introducaoentreemContato::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 50px;
+  right: 470px;
+}
+
+.contratoPrivacidade::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 50px;
+  right: 470px;
+}
+
+.introducaoPrivacidade {
+  width: 440px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.introducaocoletaUso {
+  width: 440px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.introducaoContato {
   width: 440px;
   padding-left: 40px;
   padding-right: 20px;
@@ -303,7 +392,7 @@ h3.titulo-transacoesComerciais{
   word-break: end;
 }
 
-.introducaoentreemContato-cover, .introducaocoletauso-cover {
+.introducaoentreemContato-cover {
   display: grid;
   width: 450px;
   height: 200px;
@@ -312,7 +401,34 @@ h3.titulo-transacoesComerciais{
   margin-right: 10px;
 }
 
-.introducao-cover img, .introducaocoletauso-cover img, .introducaoentreemContato-cover img {
+.introducaocoletauso-cover {
+  display: grid;
+  width: 450px;
+  height: 200px;
+  padding-left: 40px;
+  background-color: whitesmoke;
+  margin-right: 10px;
+}
+
+.introducao-cover img {
+  display: grid;
+  object-fit: cover;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.introducaocoletauso-cover img {
+  display: grid;
+  object-fit: cover;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.introducaoentreemContato-cover img {
   display: grid;
   object-fit: cover;
   justify-items: center;
@@ -326,7 +442,15 @@ h3.titulo-transacoesComerciais{
   width: 1000px;
 }
 
-.conteudoColeta, .introducaocoletausoDados, .introducaoentreemContato {
+.conteudoColeta {
+  width: 1000px;
+}
+
+.introducaocoletausoDados {
+  width: 1000px;
+}
+
+.introducaoentreemContato {
   width: 1000px;
 }
 
@@ -334,7 +458,7 @@ h3.titulo-transacoesComerciais{
   padding-top: 20px;
 }
 
-.paragrafo-servicosTerceiros, .paragrafo-usodadosPessoais, .paragrafo-aplicacaoLei, .paragrafo-outrosRequisitosLegais {
+.paragrafo-servicosTerceiros {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -342,6 +466,24 @@ h3.titulo-transacoesComerciais{
 
 .paragrafo-servicosTerceirossemPadding, .paragrafo-dadossemPadding {
   padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-usodadosPessoais {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-aplicacaoLei {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-outrosRequisitosLegais {
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -359,22 +501,28 @@ h3.titulo-transacoesComerciais{
   margin-bottom: 0px;
 }
 
-.marcadorusoDados, .marcadorOutrosRequisitosLegais {
+.marcadorusoDados {
   padding-right: 10px;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
 }
 
-.marcadorColeta, .marcadorServicos {
+.marcadorColeta {
   padding-right: 10px;
   padding-bottom: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.marcador-lista, .marcadorOutrosRequisitosLegais-lista, .marcadorContato-lista,
-.marcadorServicos-lista, .marcadorColeta-lista, .marcador-usoDadosPessoais {
+.marcadorServicos {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.marcador-lista {
   font-size: 15px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -389,6 +537,33 @@ h3.titulo-transacoesComerciais{
   padding-right: 10px;
   padding-bottom: 0px;
   width: 885px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.marcador-usoDadosPessoais {
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 880px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.marcadorOutrosRequisitosLegais {
+  padding-right: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.marcadorOutrosRequisitosLegais-lista {
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 880px;
   height: auto;
   list-style-position: inside;
   list-style-type: disc;
@@ -414,9 +589,38 @@ h3.titulo-transacoesComerciais{
   list-style-type: circle;
 }
 
+.marcadorColeta-lista {
+  font-size: 15px;
+  padding-bottom: 10px;
+  width: 880px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
 .marcadorColeta-listasemPadding, .marcadorServicos-listasemPadding, .marcadorOutrosRequisitosLegais-listaSempadding{
   font-size: 15px;
   padding-bottom: 0px;
+  width: 880px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.marcadorServicos-lista {
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 640px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.marcadorContato-lista {
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   width: 880px;
   height: auto;
   list-style-position: inside;
@@ -437,18 +641,69 @@ h3.titulo-transacoesComerciais{
   font-size: 15px;
 }
 
-.paragrafo-dados, .paragrafo-retencaoDados, .paragrafo-transferenciaDados, .paragrafo-privacidadeInfantil, .paragrafo-segurancaDadospessoais
-.paragrafo-linksoutrosSites, .paragrafo-mudancaspoliticaPrivacidade, .paragrafo-entreemContato {
+.paragrafo-dados {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-retencaoDados {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-transferenciaDados {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-divulgacaoDados {
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-privacidadeInfantil {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-segurancaDadospessoais {  
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-linksoutrosSites {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .paragrafo-linksoutrossitessemPadding, .paragrafo-mudancaspoliticaprivacidadesemPadding, .paragrafo-privacidadeinfantil-semPadding,
-.paragrafo-transferenciaDadossemPadding, .paragrafo-retencaoDadossemPadding, .paragrafo-divulgacaoDados {
+.paragrafo-transferenciaDadossemPadding, .paragrafo-retencaoDadossemPadding  {
   padding-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.paragrafo-mudancaspoliticaPrivacidade {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragrafo-entreemContato {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.titulo-entreemContato {
+  padding-top: 30px;
 }
 
 .rodape-footer {
@@ -519,7 +774,19 @@ h3.titulo-transacoesComerciais{
   position: absolute;
 }
 
-.rodape-contato:hover, .rodape-trabalhe:hover, .rodape-privacidade:hover, .rodape-cookies:hover {
+.rodape-contato:hover {
+  background-color: whitesmoke;
+}
+
+.rodape-trabalhe:hover {
+  background-color: whitesmoke;
+}
+
+.rodape-privacidade:hover {
+  background-color: whitesmoke;
+}
+
+.rodape-cookies:hover {
   background-color: whitesmoke;
 }
 
@@ -551,53 +818,132 @@ h3.titulo-transacoesComerciais{
 }
 
 @media (max-width: 3840px) {
+  div.left {
+    width: 1550px;
+    height: 60px;
+  }
 
-  div.left, div.right,  div.left-footer,  div.right-footer {
+  div.right {
+    width: 1550px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 1550px;
+    height: 60px;
+  }
+
+  div.right-footer {
     width: 1550px;
     height: 60px;
   }
 }
 
 @media (max-width: 2560px) {
-  div.left, div.right, div.left-footer, div.right-footer {
+  div.left {
+    width: 772px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 772px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 772px;
+    height: 60px;
+  }
+
+  div.right-footer {
     width: 772px;
     height: 60px;
   }
 }
 
 @media (max-width: 1920px) {
-  div.left, div.right, div.left-footer, div.right-footer {
+  div.left {
+    width: 454px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 454px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 454px;
+    height: 60px;
+  }
+
+  div.right-footer {
     width: 454px;
     height: 60px;
   }
 }
 
 @media (max-width: 1600px) {
-  div.left, div.left-footer {
+  div.left {
     width: 293px;
     height: 60px;
   }
 
-  div.right,   div.right-footer {
+  div.right {
+    width: 294px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 293px;
+    height: 60px;
+  }
+
+  div.right-footer {
     width: 294px;
     height: 60px;
   }
 }
 
 @media (max-width: 1550px) {
-  div.left, div.right, div.left-footer, div.right-footer {
+  div.left {
+    width: 256px;
+    height: 60px;
+  }
+
+  div.right {
+    width: 256px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 256px;
+    height: 60px;
+  }
+
+  div.right-footer {
     width: 256px;
     height: 60px;
   }
 }
 
 @media (max-width: 1280px) {
-  div.left , div.left-footer{
+  div.left {
     width: 133px;
     height: 60px;
   }
 
-  div.right,   div.right-footer {
+  div.right {
+    width: 132px;
+    height: 60px;
+  }
+
+  div.left-footer {
+    width: 133px;
+    height: 60px;
+  }
+
+  div.right-footer {
     width: 132px;
     height: 60px;
   }
