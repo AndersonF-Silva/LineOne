@@ -56,10 +56,20 @@ p.paragrafo-sempaddingBottom {
   padding-top: 10px;
 }
 
+p.p.paragrafo-conteudocookiessempaddingBottom {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+
 p.paragrafo-configurarBrowser {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+p.paragrafo-paddingBottom {
+    padding-bottom: 10px;
+  }
 
 h1 {
   text-justify: initial;
@@ -77,10 +87,9 @@ h2 {
   text-decoration: underline;
 }
 
-h2.resumo-conteudoCookies {
+h2.resumo-conteudoCookies, .resumodesabilitarCookies {
   padding-bottom: 10px;
   margin-top: 0px;
-  padding-top: 30px;
   margin-bottom: 0px;
 }
 
@@ -88,14 +97,7 @@ h2.resumotiposCookies {
   padding-bottom: 10px;
   margin-top: 0px;
   padding-top: 30px;
-  margin-bottom: 0px;
-}
-
-h2.resumodesabilitarCookies {
-  padding-bottom: 10px;
-  margin-top: 0px;
-  padding-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; 
 }
 
 h3 {
@@ -108,16 +110,18 @@ h3 {
 ul.marcadorCookies {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;  
 }
 
 ul.submarcadorConteudoCookies {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 ul.configurarBrowser {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 ul.bannerconfigurarBrowser {
@@ -128,16 +132,86 @@ ul.bannerconfigurarBrowser {
 }
 
 li.marcador-Cookies {
-  margin-top: 10px;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 60px;
+  width: 885px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
 }
 
-li.submarcador-Cookies {
-  margin-bottom: 10px;
+li.marcador-CookiessempaddingTop{
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-left: 60px;
+  width: 885px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.marcador-cookiessempaddingBottom {
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 60px;
+  width: 885px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+li.submarcador-Cookies {  
+  font-size: 15px;
+  padding-right: 10px;
+  padding-left: 100px;
+  width: 885px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: circle;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+li.submarcador-CookiessempaddingBottom {
+  font-size: 15px;
+  padding-right: 10px;
+  padding-left: 100px;
+  width: 885px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: circle;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+li.submarcador-Cookiessempadding{
+  font-size: 15px;
+  padding-right: 10px;
+  width: 885px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: circle;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 li.configurar-Browser {
-  padding-top: 10px;
-  padding-bottom: 0px;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 60px;
+  width: 885px;
+  height: auto;
+  list-style-position: inside;
+  list-style-type: disc;
 }
 
 li.resumoconfigurar-Browser {
@@ -169,27 +243,33 @@ li.submarcador-Cookies-semMargem {
 }
 
 .container-resumoCookies {
-  width: 100%;
   padding-top: 50px;
-  margin-bottom: -20px;
+}
+
+.container-conteudodesabilitarCookies{
+  padding-top: 50px;
 }
 
 .container-configurarBrowser {
-  padding-top: 20px;
   width: 100%;
 }
 
 .container-conteudoCookies {
-  padding-top: 0px;
-  width: 1000px;
-  margin-top: -40px;
-  margin-bottom: -40px;
+  margin-top: -60px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 1000px;      
 }
 
 .container-footer {
   width: 100%;
   padding-top: 30px;
   margin-top: -30px;
+}
+
+.container-resumoBrowser {
+    padding-top: 5px;
 }
 
 ul.submarcadorconfigurarBrowser {
@@ -329,12 +409,12 @@ ul.submarcador-cookies-edge {
 
 .conteudotiposCookies {
   padding-bottom: 0px;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
 }
 
 .conteudodesabilitarCookies {
   padding-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .vantagens {
@@ -351,6 +431,10 @@ ul.submarcador-cookies-edge {
   align-content: center;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
+}
+
+.marcadorestiposCookies {
+  padding-left: 60px;
 }
 
 .resumoconfigurarBrowser {
@@ -383,7 +467,7 @@ ul.submarcador-cookies-edge {
   display: grid;
   align-content: center;
   grid-template-columns: 1fr 1fr;
-  max-width: 960px;
+  max-width: 1000px;
   height: 320px;
 }
 
@@ -395,7 +479,7 @@ ul.submarcador-cookies-edge {
   display: grid;
   align-content: center;
   grid-template-columns: 1fr 1fr;
-  max-width: 960px;
+  max-width: 1000px;
   height: 320px;
 }
 
@@ -407,7 +491,7 @@ ul.submarcador-cookies-edge {
   display: grid;
   align-content: center;
   grid-template-columns: 1fr 1fr;
-  max-width: 960px;
+  max-width: 1000px;
   height: 320px;
 }
 
@@ -419,7 +503,7 @@ ul.submarcador-cookies-edge {
   display: grid;
   align-content: center;
   grid-template-columns: 1fr 1fr;
-  max-width: 960px;
+  max-width: 1000px;
   height: 320px;
 }
 
@@ -431,7 +515,7 @@ ul.submarcador-cookies-edge {
   display: grid;
   align-content: center;
   grid-template-columns: 1fr 1fr;
-  max-width: 960px;
+  max-width: 1000px;
   height: 320px;
 }
 
@@ -538,6 +622,7 @@ ul.submarcador-cookies-edge {
 
 .paragrafo-semPaddingZerado {
   margin-bottom: 0px;
+  padding-left: 10px;
 }
 
 .submarcador-CookiessemMargin {
@@ -554,6 +639,7 @@ ul.submarcador-cookies-edge {
   margin-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 0px;
 }
 
 .paragrafo-marcadorCookies {
