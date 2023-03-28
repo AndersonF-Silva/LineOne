@@ -18,17 +18,11 @@ img.imgMenuBrowser {
   height: 20px;
 }
 
-img.img-menu {
+img.img-menu, img.img-pesquisa {
   display: grid;
   object-fit: cover;
   padding-right: 40px;
 
-}
-
-img.img-pesquisa {
-  display: grid;
-  object-fit: cover;
-  padding-left: 40px;
 }
 
 img.logoSite {
@@ -119,7 +113,7 @@ ul {
   padding: 0px;
 }
 
-ul.marcadorCookies {
+ul.marcadorCookies, ul.configurarBrowser {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;  
@@ -127,12 +121,6 @@ ul.marcadorCookies {
 
 ul.submarcadorConteudoCookies {
   padding-bottom: 0px;
-  padding-left: 0px;
-}
-
-ul.configurarBrowser {
-  margin-top: 0px;
-  margin-bottom: 0px;
   padding-left: 0px;
 }
 
@@ -192,24 +180,25 @@ li.submarcador-Cookies {
   font-size: 15px;
   padding-right: 10px;
   padding-left: 100px;
+  padding-top: 0px;
   width: 885px;
   height: auto;
   list-style-position: inside;
   list-style-type: circle;
-  padding-top: 0px;
-  padding-bottom: 10px;
+
+ 
 }
 
 li.submarcador-CookiessempaddingBottom {
   font-size: 15px;
   padding-right: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
   padding-left: 100px;
   width: 885px;
   height: auto;
   list-style-position: inside;
   list-style-type: circle;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 li.submarcador-Cookiessempadding{
@@ -276,7 +265,7 @@ li.submarcador-Cookies-semMargem {
   padding-top: 50px;
 }
 
-.container-configurarBrowser {
+.container-configurarBrowser, .container-configurarBrowserChrome {
   width: 100%;
 }
 
@@ -339,12 +328,7 @@ li.submarcador-Cookies-semMargem {
   align-content: end;
 }
 
-.link-pag-inicial {
-  width: 100px;
-  height: 60px;
-}
-
-.link-pesquisa-site {
+.link-pag-inicial, .link-pesquisa-site {
   width: 100px;
   height: 60px;
 }
@@ -425,12 +409,7 @@ li.submarcador-Cookies-semMargem {
   max-width: 100%;
 }
 
-.conteudoCookies {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-.conteudotiposCookies {
+.conteudoCookies, .conteudotiposCookies {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
@@ -482,7 +461,7 @@ li.submarcador-Cookies-semMargem {
   right: 470px;
 }
 
-.resumoconfigurarBrowser-Chrome {
+.resumoconfigurarBrowser-Chrome, .resumoconfigurarBrowser-Firefox, .resumoconfigurarBrowser-Edge, .resumoconfigurarBrowser-Safari, .resumoconfigurarBrowser-OthersBrowsers {
   background: #fff;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -495,89 +474,17 @@ li.submarcador-Cookies-semMargem {
   height: 320px;
 }
 
-.resumoconfigurarBrowser-Firefox {
-  background: #fff;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  padding-left: 40px;
-  position: relative;
-  display: grid;
-  align-content: center;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
-  height: 320px;
-}
-
-.resumoconfigurarBrowser-Edge {
-  background: #fff;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  padding-left: 40px;
-  position: relative;
-  display: grid;
-  align-content: center;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
-  height: 320px;
-}
-
-.resumoconfigurarBrowser-Safari {
-  background: #fff;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  padding-left: 40px;
-  position: relative;
-  display: grid;
-  align-content: center;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
-  height: 320px;
-}
-
-.resumoconfigurarBrowser-OthersBrowsers {
-  background: #fff;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  padding-left: 40px;
-  position: relative;
-  display: grid;
-  align-content: center;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
-  height: 320px;
-}
-
-.resumoconfigurarBrowser-Chrome::before {
+.resumoconfigurarBrowser-Chrome::before, .resumoconfigurarBrowser-Safari::before {
   content: "";
   width: 60px;
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 60px;
+  top: 50px;
   right: 470px;
 }
 
-.resumoconfigurarBrowser-Firefox::before {
-  content: "";
-  width: 60px;
-  height: 4px;
-  background: #e21;
-  position: absolute;
-  top: 60px;
-  right: 470px;
-}
-
-.resumoconfigurarBrowser-Edge::before {
-  content: "";
-  width: 60px;
-  height: 4px;
-  background: #e21;
-  position: absolute;
-  top: 65px;
-  right: 470px;
-}
-
-.resumoconfigurarBrowser-Safari::before {
+.resumoconfigurarBrowser-Firefox::before, .resumoconfigurarBrowser-Edge::before {
   content: "";
   width: 60px;
   height: 4px;
@@ -593,7 +500,7 @@ li.submarcador-Cookies-semMargem {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 65px;
+  top: 75px;
   right: 470px;
 }
 
@@ -616,16 +523,7 @@ li.submarcador-Cookies-semMargem {
   height: 320px;
 }
 
-.introducao-cover img {
-  display: grid;
-  object-fit: cover;
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.introducao-coverBrowser img {
+.introducao-cover img, .introducao-coverBrowser img {
   display: grid;
   object-fit: cover;
   justify-items: center;
@@ -670,11 +568,7 @@ li.submarcador-Cookies-semMargem {
   padding-bottom: 0px;
 }
 
-.paragrafo-marcadorCookies {
-  padding-top: 10px;
-}
-
-.paragrafo-configurarBrowser {
+.paragrafo-marcadorCookies, .paragrafo-configurarBrowser{
   padding-top: 10px;
 }
 
