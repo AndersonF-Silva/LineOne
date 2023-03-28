@@ -44,6 +44,11 @@ img.img-menu {
   padding-right: 40px;
 }
 
+.introducao-cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
 img.img-pesquisa {
   display: grid;
   object-fit: cover;
@@ -79,6 +84,16 @@ p {
   margin-top: -60px;
 }
 
+.container-conteudoCover {
+  margin-top: 0px;
+  height: 881px;
+  margin-bottom: -60px;
+}
+
+.container-slider, .conteudoCover{
+    padding-top: 50px;
+  }
+
 .header {
   display: grid;
   align-items: center;
@@ -101,29 +116,17 @@ p {
   align-content: end;
 }
 
-.link-pag-inicial {
+.link-pag-inicial, .link-pesquisa-site {
   width: 100px;
   height: 60px;
 }
 
-.link-pesquisa-site {
-  width: 100px;
-  height: 60px;
-}
-
-.left {
+.left, .right {
   display: grid;
   object-fit: cover;
   width: 256px;
   height: 60px;
-  justify-items: center;
-}
 
-.right {
-  display: grid;
-  object-fit: cover;
-  width: 256px;
-  height: 60px;
 }
 
 .menu-superior-lista {
@@ -194,12 +197,6 @@ p {
   background: transparent;
   margin-top: 20px;
   right: 132px;
-}
-
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
 }
 
 .body {
@@ -283,15 +280,6 @@ ul {
   right: -30px;
 }
 
-.introducao-cover img {
-  object-fit: cover;
-  height: 100%;
-}
-
-.conteudoCover {
-  padding-top: 50px;
-}
-
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -309,49 +297,77 @@ ul {
   padding: 10px;
 }
 
-.rodape {
-  margin-top: 0px;
-}
-
-.rodape-footer {
+.container-menuRodape {
   display: grid;
-  align-content: center;
+  width: 100%;
+  margin-top: -60px;  
+  padding-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 999px;
+  height: 160px;
 }
 
-.rodape-site {
-  height: 60px;
-  padding: 10px;
-  background-color: whitesmoke;
-}
-
-.detalheRodape {
+.conteudomenuRodape {
   background: #fff;
+  width: 999px;
+  height: 160px;
+}
+
+.center-menuRodape {
+  display: grid;
+  object-fit: cover;
+  width: 999px;
+  height: 160px;
+  align-content: center;
+}
+
+.left-menuRodape,
+.right-menuRodape {
+  display: grid;
+  object-fit: cover;
+  width: 256px;
+  height: 160px;
+}
+
+.menurodapeSite {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -100px;
+}
+
+.spanmenuRodape {
+  text-align: right;
   position: relative;
   display: grid;
   gap: 1.25rem;
   align-content: center;
-  justify-items: end;
+  width: 1000px;
 }
 
-.menu-rodape-lista {
+.spanmenuRodape::before {
+  content: "";
+  width: 1000px;
+  height: 4px;
+  background: #000000;
+  position: absolute;
+  top: -80px;
+}
+
+.menurodape-lista {
   display: flex;
-  list-style: none;
-  margin: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 0px;
-  padding-left: 0px;
   background-color: #fff;
   flex-wrap: wrap;
   gap: 1.25rem;
   justify-content: center;
   font-size: 20px;
-  margin-top: 0px;
+  width: 999px;
+  height: 160px;
+  margin-top: -160px;
+  align-content: center;
 }
 
-.menu-rodape-lista a {
+.menurodape-lista a {
   display: block;
   background: #ffffff;
   padding-top: 1rem;
@@ -363,50 +379,26 @@ ul {
   background-color: #fff;
 }
 
-.rodape {
-  text-align: right;
-  position: relative;
-  display: grid;
-  gap: 1.25rem;
-  align-content: center;
-  width: 1000px;
-}
-
-.rodape ::before {
-  content: "";
-  width: 1000px;
-  height: 4px;
-  background: #000000;
-  position: absolute;
-  top: 0px;
-}
-
-.rodape-contato:hover {
-  background-color: whitesmoke;
-}
-
-.rodape-trabalhe:hover {
-  background-color: whitesmoke;
-}
-
-.rodape-privacidade:hover {
-  background-color: whitesmoke;
-}
-
+.rodape-contato:hover,
+.rodape-trabalhe:hover,
+.rodape-privacidade:hover,
 .rodape-cookies:hover {
   background-color: whitesmoke;
 }
 
-.textoRodape {
+.container-footer {
+  width: 100%;
+  margin-top: -60px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.textoFooter {
   text-align: center;
   font-size: 15px;
   line-height: 1.3;
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-.menu-rodape {
-  padding-top: 0px;
 }
 
 @media (max-width: 1000px) {
@@ -419,138 +411,54 @@ ul {
   }
 }
 @media (max-width: 3840px) {
-  div.left {
-    width: 1550px;
-    height: 60px;
-    justify-items: center;
-  }
-
-  div.right {
-    width: 1550px;
-    height: 60px;
-  }
-
-  div.left-footer {
-    width: 1550px;
-    height: 60px;
-  }
-
-  div.right-footer {
+  div.left, div.right, div.left-footer, div.right-footer {
     width: 1550px;
     height: 60px;
   }
 }
 
 @media (max-width: 2560px) {
-  div.left {
-    width: 772px;
-    height: 60px;
-    justify-items: center;
-  }
-
-  div.right {
-    width: 772px;
-    height: 60px;
-  }
-
-  div.left-footer {
-    width: 772px;
-    height: 60px;
-  }
-
-  div.right-footer {
+  div.left, div.right, div.left-footer, div.right-footer {
     width: 772px;
     height: 60px;
   }
 }
 
 @media (max-width: 1920px) {
-  div.left {
-    width: 454px;
-    height: 60px;
-    justify-items: center;
-  }
-
-  div.right {
-    width: 454px;
-    height: 60px;
-  }
-
-  div.left-footer {
-    width: 454px;
-    height: 60px;
-  }
-
-  div.right-footer {
+  div.left, div.right, div.left-footer, div.right-footer {
     width: 454px;
     height: 60px;
   }
 }
 
 @media (max-width: 1600px) {
-  div.left {
+  div.left, div.left-footer {
     width: 293px;
     height: 60px;
     justify-items: center;
   }
 
-  div.right {
-    width: 294px;
-    height: 60px;
-  }
-
-  div.left-footer {
-    width: 293px;
-    height: 60px;
-  }
-
-  div.right-footer {
+  div.right, div.right-footer {
     width: 294px;
     height: 60px;
   }
 }
 
 @media (max-width: 1550px) {
-  div.left {
-    width: 256px;
-    height: 60px;
-    justify-items: center;
-  }
-
-  div.right {
-    width: 256px;
-    height: 60px;
-  }
-
-  div.left-footer {
-    width: 256px;
-    height: 60px;
-  }
-
-  div.right-footer {
+  div.left, div.right, div.left-footer, div.right-footer {
     width: 256px;
     height: 60px;
   }
 }
 
 @media (max-width: 1280px) {
-  div.left {
+  div.left, div.left-footer {
     width: 133px;
     height: 60px;
-    justify-items: center;
+
   }
 
-  div.right {
-    width: 132px;
-    height: 60px;
-  }
-
-  div.left-footer {
-    width: 133px;
-    height: 60px;
-  }
-
-  div.right-footer {
+  div.right, div.right-footer {
     width: 132px;
     height: 60px;
   }
@@ -653,8 +561,6 @@ h3 {
   align-content: center;
   justify-items: end;
   background-color: #ffffff;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .painelSuperiorSlider {
@@ -709,7 +615,7 @@ img.sliderimagens {
   padding-bottom: 20px;
 }
 
-/*fazer o slide show funcionar*/
+/*fazer o slide show manual funcionar*/
 .slider input {
   display: none;
 }
