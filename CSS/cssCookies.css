@@ -18,12 +18,18 @@ img.imgMenuBrowser {
   height: 20px;
 }
 
-img.img-menu, img.img-pesquisa {
+img.img-menu {
   display: grid;
   object-fit: cover;
   padding-right: 40px;
-
 }
+
+ img.img-pesquisa {
+   display: grid;
+   object-fit: cover;
+   padding-left: 40px;
+
+ }
 
 img.logoSite {
   display: grid;
@@ -699,25 +705,10 @@ li.submarcador-Cookies-semMargem {
 }
 
 @media (max-width: 2560px) {
-  div.left {
-    width: 772px;
-    height: 60px;
-  }
-
-  div.right {
-    width: 772px;
-    height: 60px;
-  }
-
-  div.left-footer {
-    width: 772px;
-    height: 60px;
-  }
-
-  div.right-footer {
-    width: 772px;
-    height: 60px;
-  }
+  div.left-footer, div.right-footer, div.left, div.right {
+      width: 780px;
+      height: 60px;
+    }
 }
 
 @media (max-width: 1920px) {

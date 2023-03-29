@@ -582,24 +582,8 @@ p.paragrafolistaNome{
 }
 
 @media (max-width: 2560px) {
-  div.left {
-    width: 772px;
-    height: 60px;
-    justify-items: center;
-  }
-
-  div.right {
-    width: 772px;
-    height: 60px;
-  }
-
-  div.left-footer {
-    width: 772px;
-    height: 60px;
-  }
-
-  div.right-footer {
-    width: 772px;
+  div.left-footer, div.right-footer, div.left, div.right {
+    width: 780px;
     height: 60px;
   }
 }

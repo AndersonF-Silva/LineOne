@@ -32,10 +32,16 @@ img {
   max-width: 100%;
 }
 
-img.img-menu, img.img-pesquisa {
+img.img-menu {
   display: grid;
   object-fit: cover;
   padding-right: 40px;
+}
+
+img.img-pesquisa {
+  display: grid;
+  object-fit: cover;
+  padding-left: 40px;
 }
 
 img.logoSite {
@@ -560,10 +566,10 @@ h3.titulo-transacoesComerciais{
 }
 
 @media (max-width: 2560px) {
-  div.left, div.right, div.left-footer, div.right-footer {
-    width: 772px;
-    height: 60px;
-  }
+  div.left-footer, div.right-footer, div.left, div.right {
+      width: 780px;
+      height: 60px;
+    }
 }
 
 @media (max-width: 1920px) {

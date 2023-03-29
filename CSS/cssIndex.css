@@ -416,10 +416,9 @@ p {
     height: 60px;
   }
 }
-
 @media (max-width: 2560px) {
-  div.left, div.right, div.left-footer, div.right-footer {
-    width: 772px;
+  div.left-footer, div.right-footer, div.left, div.right {
+    width: 780px;
     height: 60px;
   }
 }
