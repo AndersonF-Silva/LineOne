@@ -54,6 +54,10 @@ img.logoSite {
 
 }
 
+img.img-introducao-coverDesenvolvimento {
+  width: 500px;
+}
+
 a {
   text-decoration: none;
 }
