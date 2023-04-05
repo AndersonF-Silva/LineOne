@@ -24,7 +24,7 @@ h2 {
 
 h2.titulo-resumomaisDetalhes {
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -88,10 +88,17 @@ p {
 
 p.paragrafo-resumomaisDetalhes {
     width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 p.paragrafo-lista {
     width: 800px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
 }
 
 .container-resumomaisDetalhes {
@@ -103,13 +110,15 @@ p.paragrafo-lista {
     width: 1000px;
 }
 
-.lista::before {
-    content: "";
-    width: 70px;
-    height: 4px;
-    background: transparent;
-    margin-top: 20px;
-    right: 212px;
+.lista {
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 885px;
+    height: auto;
+    list-style-position: inside;
+    list-style-type: disc;
 }
 
 .container-header {
