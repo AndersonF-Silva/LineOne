@@ -242,8 +242,11 @@ h3.titulo-transacoesComerciais{
 }
 
 .container-header {
+  position: fixed;
+  top: 0%;
   width: 100%;
   margin-bottom: -60px;
+  background-color: #f5f5f5;
 }
 
 .container-menu {
@@ -276,21 +279,40 @@ h3.titulo-transacoesComerciais{
   background: #fff;
   padding-bottom: 40px;
   padding-top: 40px;
-  position: relative;
   display: grid;
   align-content: center;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
 }
 
-.introducaocoletausoDados::before, .introducaoentreemContato::before, .contratoPrivacidade::before {
+.contratoPrivacidade::before {
   content: "";
-  width: 60px;
+  width: 70px;
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 50px;
-  right: 470px;
+  top: 135px;
+  right: 723px;
+}
+
+ .introducaoentreemContato::before {
+   content: "";
+   width: 70px;
+   height: 4px;
+   background: #e21;
+   position: absolute;
+   top: 4685px;
+   right: 723px;
+ }
+
+.introducaocoletausoDados::before {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 1160px;
+  right: 723px;
 }
 
 .introducaoPrivacidade, .introducaocoletaUso, .introducaoContato {

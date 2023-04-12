@@ -66,6 +66,18 @@ img.img-pesquisa {
     padding-left: 40px;
 }
 
+img.img-quadro-inovacao {
+    display: block;
+    width: 290px;
+    height: 290px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-position: center;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -87,7 +99,7 @@ p {
 }
 
 p.paragrafo-resumomaisDetalhes {
-    width: 1000px;
+    width: 980px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 10px;
@@ -101,10 +113,12 @@ p.paragrafo-lista {
     padding-left: 20px;
 }
 
-.container-resumomaisDetalhes {
+.container-resumomaisDetalhes, .container-resumoServicos {
     width: 1000px;
     padding-top: 60px;
 }
+
+
 
 .container-lista {
     width: 1000px;
@@ -122,8 +136,11 @@ p.paragrafo-lista {
 }
 
 .container-header {
+    position: fixed;
+    top: 0%;
     width: 100%;
     margin-bottom: -60px;
+    background-color: #f5f5f5;
 }
 
 .container-menu {
@@ -317,7 +334,6 @@ p.paragrafo-lista {
     background: #fff;
     padding: 40px;
     text-align: right;
-    position: relative;
     display: grid;
     gap: 1.25rem;
     align-content: center;
@@ -345,17 +361,34 @@ p.paragrafo-lista {
     margin-bottom: -60px;
 }
 
-.navegacao {
-    width: auto;
-    height: 60px;
-    padding: 10px;
+.grade-inovacao {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    width: 999px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    column-gap: 49px;
+}
+
+.quadro-inovacao {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background-color: #ab0606;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    border-radius: 5%;
+    gap: 10px;
 }
 
 .container-menuRodape {
     display: grid;
     width: 100%;
     margin-top: -60px;
-    padding-top: 50px;
+    padding-top: 40px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     grid-template-columns: 1fr 1fr 1fr;
