@@ -637,6 +637,16 @@ p.paragrafolistaNome{
     width: 294px;
     height: 60px;
   }
+
+  .introducao::before {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #e21;
+    position: absolute;
+    top: 140px;
+    right: 720px;
+  }
 }
 
 @media (max-width: 1550px) {
