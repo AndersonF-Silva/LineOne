@@ -31,7 +31,7 @@ h2.dicionarioPrivacidade {
   margin-bottom: 0px;
 }
 
-h2.Definicoes{
+h2.definicoes{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
@@ -162,11 +162,19 @@ p.paragrafolistaNome{
   position: fixed;
   top: 0%;
   width: 100%;
-  margin-bottom: -60px;
+  background-color: #f5f5f5;
+  padding-top: 20px;
 }
 
 .container-menu {
   width: 100%;
+}
+
+.container-conteudoCover {
+  margin-top: 0px;
+  height: 820px;
+  padding-top: 80px;
+  margin-bottom: -60px;
 }
 
 .container-conteudoServicos{
@@ -354,7 +362,6 @@ p.paragrafolistaNome{
   background: #fff;
   padding: 40px;
   text-align: right;
-  position: relative;
   display: grid;
   gap: 1.25rem;
   align-content: center;
@@ -367,17 +374,13 @@ p.paragrafolistaNome{
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 30px;
-  right: -30px;
+  top: 140px;
+  right: 1250px;
 }
 
 .introducao-cover img {
   object-fit: cover;
   height: 100%;
-}
-
-.conteudoCover {
-  padding-top: 50px;
 }
 
 .conteudo {
@@ -395,8 +398,8 @@ p.paragrafolistaNome{
   margin-top: 0px;
   margin-bottom: -60px;
   width: 1000px;
-  padding-top: 30px;
   padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .marcadoresPilares {
