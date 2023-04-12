@@ -71,8 +71,11 @@ p {
 }
 
 .container-header {
+  position: fixed;
+  top: 0%;
   width: 100%;
-  margin-bottom: -60px;
+  background-color: #f5f5f5;
+  padding-top: 20px;
 }
 
 .container-menu {
@@ -87,12 +90,13 @@ p {
 .container-conteudoCover {
   margin-top: 0px;
   height: 881px;
+  padding-top: 80px;
   margin-bottom: -60px;
 }
 
-.container-slider, .conteudoCover{
+.container-slide{
     padding-top: 50px;
-  }
+}
 
 .header {
   display: grid;
@@ -126,7 +130,6 @@ p {
   object-fit: cover;
   width: 256px;
   height: 60px;
-
 }
 
 .menu-superior-lista {
@@ -263,7 +266,6 @@ p {
   background: #fff;
   padding: 40px;
   text-align: right;
-  position: relative;
   display: grid;
   gap: 1.25rem;
   align-content: center;
@@ -272,12 +274,12 @@ p {
 
 .introducao::before {
   content: "";
-  width: 60px;
+  width: 70px;
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 30px;
-  right: -30px;
+  top: 140px;
+  right: 1245px;
 }
 
 .conteudo {
@@ -555,7 +557,6 @@ h3 {
   max-width: 1000px;
   height: 700px;
   grid-template-columns: 1fr;
-  position: relative;
   gap: 1.25rem;
   align-content: center;
   justify-items: end;
@@ -588,7 +589,6 @@ p.apresentacaorapidaProjetos {
   display: block;
   width: 940px;
   height: 640px;
-  position: relative;
   background-color: white;
   margin-left: 30px;
   margin-right: 30px;
@@ -600,11 +600,11 @@ p.apresentacaorapidaProjetos {
 
 li.slideImg {
   list-style: none;
-  position: absolute;
 }
 
 img.sliderimagens {
   display: inline-table;
+  position: absolute;
   background-color: whitesmoke;
   width: 900px;
   height: 520px;
@@ -625,33 +625,34 @@ img.sliderimagens {
   cursor: pointer;
   display: block;
   height: 10px;
+  top: 1673px;
   position: absolute;
   width: 10px;
   z-index: 10;
 }
 
 .slider li:nth-child(1) label {
-  left: 10px;
+  left: 1180px;
 }
 
 .slider li:nth-child(2) label {
-  left: 40px;
+  left: 1220px;
 }
 
 .slider li:nth-child(3) label {
-  left: 70px;
+  left: 1260px;
 }
 
 .slider li:nth-child(4) label {
-  left: 100px;
+  left: 1300px;
 }
 
 .slider li:nth-child(5) label {
-  left: 130px;
+  left: 1340px;
 }
 
 .slider li:nth-child(6) label {
-  left: 160px;
+  left: 1380px;
 }
 
 .slider img {
