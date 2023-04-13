@@ -258,7 +258,8 @@ li.submarcador-Cookies-semMargem {
   position: fixed;
   top: 0%;
   width: 100%;
-  margin-bottom: -60px;
+  background-color: #f5f5f5;
+  padding-top: 20px;
 }
 
 .container-menu {
@@ -266,7 +267,10 @@ li.submarcador-Cookies-semMargem {
 }
 
 .container-resumoCookies {
-  padding-top: 50px;
+  margin-top: 0px;
+  height: 340px;
+  padding-top: 80px;
+  margin-bottom: -60px;
 }
 
 .container-conteudodesabilitarCookies{
@@ -436,7 +440,6 @@ li.submarcador-Cookies-semMargem {
   background: #fff;
   padding-bottom: 40px;
   padding-top: 40px;
-  position: relative;
   display: grid;
   align-content: center;
   grid-template-columns: 1fr 1fr;
@@ -465,8 +468,8 @@ li.submarcador-Cookies-semMargem {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 60px;
-  right: 470px;
+  top: 170px;
+  right: 725px;
 }
 
 .resumoconfigurarBrowser-Chrome, .resumoconfigurarBrowser-Firefox, .resumoconfigurarBrowser-Edge, .resumoconfigurarBrowser-Safari, .resumoconfigurarBrowser-OthersBrowsers {
@@ -474,7 +477,6 @@ li.submarcador-Cookies-semMargem {
   padding-bottom: 40px;
   padding-top: 40px;
   padding-left: 40px;
-  position: relative;
   display: grid;
   align-content: center;
   grid-template-columns: 1fr 1fr;
@@ -482,24 +484,44 @@ li.submarcador-Cookies-semMargem {
   height: 320px;
 }
 
-.resumoconfigurarBrowser-Chrome::before, .resumoconfigurarBrowser-Safari::before {
+.resumoconfigurarBrowser-Chrome::before {
   content: "";
   width: 60px;
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 50px;
-  right: 470px;
+  top: 1780px;
+  right: 725px;
 }
 
-.resumoconfigurarBrowser-Firefox::before, .resumoconfigurarBrowser-Edge::before {
+.resumoconfigurarBrowser-Safari::before {
   content: "";
   width: 60px;
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 60px;
-  right: 470px;
+  top: 3600px;
+  right: 725px;
+}
+
+.resumoconfigurarBrowser-Firefox::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 2420px;
+  right: 725px;
+}
+
+.resumoconfigurarBrowser-Edge::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 3090px;
+  right: 725px;
 }
 
 .resumoconfigurarBrowser-OthersBrowsers::before {
@@ -508,8 +530,8 @@ li.submarcador-Cookies-semMargem {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 75px;
-  right: 470px;
+  top: 4150px;
+  right: 725px;
 }
 
 .introducao-cover {
