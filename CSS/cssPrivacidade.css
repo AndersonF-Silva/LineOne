@@ -247,6 +247,7 @@ h3.titulo-transacoesComerciais{
   width: 100%;
   background-color: #f5f5f5;
   padding-top: 20px;
+  z-index: 1;
 }
 
 .container-menu {

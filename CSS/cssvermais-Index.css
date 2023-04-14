@@ -141,6 +141,7 @@ p.paragrafo-lista {
     width: 100%;
     margin-bottom: -60px;
     background-color: #f5f5f5;
+    z-index: 1;
 }
 
 .container-menu {
