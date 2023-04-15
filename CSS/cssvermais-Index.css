@@ -347,8 +347,8 @@ p.paragrafo-lista {
     height: 4px;
     background: #e21;
     position: absolute;
-    top: 30px;
-    right: -30px;
+    top: 120px;
+    right: 1250px;
 }
 
 .conteudo {
@@ -376,13 +376,22 @@ p.paragrafo-lista {
 .quadro-inovacao {
     display: grid;
     width: 300px;
-    height: 300px;
+    height: 350px;
     background-color: #ab0606;
     margin-right: 0px;
     margin-left: 0px;
     padding-right: 0px;
     border-radius: 5%;
     gap: 10px;
+}
+
+.tituloGrade {
+    display: grid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-items: center;
+    padding-top: 10px;
+    color: #f5f5f5;
 }
 
 .container-menuRodape {
@@ -547,6 +556,16 @@ p.paragrafo-lista {
         width: 294px;
         height: 60px;
     }
+
+    .introducao::before {
+        content: "";
+        width: 60px;
+        height: 4px;
+        background: #e21;
+        position: absolute;
+        top: 120px;
+        right: 725px;
+    }
 }
 
 @media (max-width: 1550px) {
@@ -558,6 +577,7 @@ p.paragrafo-lista {
         width: 256px;
         height: 60px;
     }
+
 }
 
 @media (max-width: 1280px) {
