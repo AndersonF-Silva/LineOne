@@ -55,11 +55,6 @@ img.img-menu {
     padding-right: 40px;
 }
 
-.introducao-cover img {
-    object-fit: cover;
-    height: 100%;
-}
-
 img.img-pesquisa {
     display: grid;
     object-fit: cover;
@@ -117,8 +112,6 @@ p.paragrafo-lista {
     width: 1000px;
     padding-top: 60px;
 }
-
-
 
 .container-lista {
     width: 1000px;
