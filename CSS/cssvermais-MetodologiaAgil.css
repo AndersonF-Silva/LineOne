@@ -1,6 +1,3 @@
-.container-lista {
-  width: 100%;
-}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -293,7 +290,7 @@ p.paragrafo-lista {
   background: #e21;
   position: absolute;
   top: 170px;
-  right: 723px;
+  right: 720px;
 }
 
 .introducaoMetodologiaAgil {
