@@ -259,6 +259,16 @@ ul {
     justify-items: center;
 }
 
+.introducao-sobre::before {
+      content: "";
+      width: 70px;
+      height: 4px;
+      background: #e21;
+      position: absolute;
+      top: 140px;
+      right: 720px;
+  }
+
 .introducao-sobre img {
     object-fit: cover;
     height: 100%;
@@ -420,6 +430,16 @@ li.regras {
         width: 780px;
         height: 60px;
     }
+
+.introducao-sobre::before {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #e21;
+    position: absolute;
+    top: 140px;
+    right: 1238px;
+}
 }
 
 @media (max-width: 1920px) {

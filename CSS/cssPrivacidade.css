@@ -255,7 +255,7 @@ h3.titulo-transacoesComerciais{
 }
 
 .container-resumoPrivacidade {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .container-conteudoPrivacidade, .container-conteudousodadosPessoais, .container-conteudoentreemContato, .container-resumoentreemContato {
@@ -292,7 +292,7 @@ h3.titulo-transacoesComerciais{
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 135px;
+  top: 170px;
   right: 723px;
 }
 
@@ -302,7 +302,7 @@ h3.titulo-transacoesComerciais{
    height: 4px;
    background: #e21;
    position: absolute;
-   top: 4685px;
+   top: 4760px;
    right: 723px;
  }
 
@@ -312,7 +312,7 @@ h3.titulo-transacoesComerciais{
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 1160px;
+  top: 1210px;
   right: 723px;
 }
 
@@ -597,6 +597,36 @@ h3.titulo-transacoesComerciais{
       width: 780px;
       height: 60px;
     }
+
+.contratoPrivacidade::before {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 170px;
+  right: 1237px;
+}
+
+.introducaocoletausoDados::before {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #e21;
+    position: absolute;
+    top: 1210px;
+    right: 1237px;
+  }
+
+.introducaoentreemContato::before {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 4760px;
+  right: 1237px;
+}
 }
 
 @media (max-width: 1920px) {

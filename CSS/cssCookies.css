@@ -491,7 +491,7 @@ li.submarcador-Cookies-semMargem {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 1780px;
+  top: 1795px;
   right: 725px;
 }
 
@@ -501,7 +501,7 @@ li.submarcador-Cookies-semMargem {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 3600px;
+  top: 3615px;
   right: 725px;
 }
 
@@ -511,7 +511,7 @@ li.submarcador-Cookies-semMargem {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 2420px;
+  top: 2435px;
   right: 725px;
 }
 
@@ -521,7 +521,7 @@ li.submarcador-Cookies-semMargem {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 3090px;
+  top: 3100px;
   right: 725px;
 }
 
@@ -531,7 +531,7 @@ li.submarcador-Cookies-semMargem {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 4150px;
+  top: 4165px;
   right: 725px;
 }
 
@@ -734,6 +734,66 @@ li.submarcador-Cookies-semMargem {
       width: 780px;
       height: 60px;
     }
+
+.resumoCookies::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 170px;
+  right: 1242px;
+}
+
+.resumoconfigurarBrowser-Chrome::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 1795px;
+  right: 1243px;
+}
+
+.resumoconfigurarBrowser-Firefox::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 2435px;
+  right: 1243px;
+}
+
+.resumoconfigurarBrowser-Edge::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 3100px;
+  right: 1243px;
+}
+
+.resumoconfigurarBrowser-Safari::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 3615px;
+  right: 1243px;
+}
+
+.resumoconfigurarBrowser-OthersBrowsers::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 4165px;
+  right: 1243px;
+}
 }
 
 @media (max-width: 1920px) {
