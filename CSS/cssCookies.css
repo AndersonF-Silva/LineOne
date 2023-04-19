@@ -838,6 +838,66 @@ li.submarcador-Cookies-semMargem {
     width: 294px;
     height: 60px;
   }
+
+.resumoCookies::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 170px;
+  right: 725px;
+}
+
+.resumoconfigurarBrowser-Firefox::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 2415px;
+  right: 725px;
+}
+
+.resumoconfigurarBrowser-Edge::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 3080px;
+  right: 725px;
+}
+
+.resumoconfigurarBrowser-Safari::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 3595px;
+  right: 725px;
+}
+
+.resumoconfigurarBrowser-OthersBrowsers::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 4145px;
+  right: 725px;
+}
+
+.resumoconfigurarBrowser-Chrome::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 1780px;
+  right: 725px;
+}
 }
 
 @media (max-width: 1550px) {

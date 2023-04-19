@@ -646,6 +646,36 @@ h3.titulo-transacoesComerciais{
     width: 294px;
     height: 60px;
   }
+
+.contratoPrivacidade::before {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 170px;
+  right: 720px;
+}
+
+.introducaocoletausoDados::before {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 1200px;
+  right: 720px;
+}
+
+.introducaoentreemContato::before {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 4730px;
+  right: 720px;
+}
 }
 
 @media (max-width: 1550px) {
